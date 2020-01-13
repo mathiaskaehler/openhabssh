@@ -1,0 +1,36 @@
+sitemap our_home label="Our Home" {
+    Frame label="Draußen" icon="garden" {
+        Group item=OU_Terrace
+        Group item=OU_Shed
+    }
+
+    Frame label="Erdgeschoss" icon="groundfloor" {
+        Group item=GF_Hallway
+        Group item=GF_Kitchen
+        Group item=GF_LivingRoom
+        Group item=GF_LivingDining
+    }
+
+    Frame {
+        Text label="Licht" icon="light" {
+            Default item=OU_Terrace_Light label="Terrasse"
+            Default item=GF_Hallway_Light label="Flur"
+            Default item=GF_Kitchen_Light label="Küche"
+            Default item=GF_LivingRoom_Light label="Wohnzimmer"
+            Default item=GF_LivingDining_Light label="Wohn-Esszimmer"
+        }
+
+        Text label="Steckdose" icon="poweroutlet" {
+            Default item=OU_Shed_Power label="Schuppen"
+            Default item=GF_Kitchen_Power label="Küche"
+        }
+    }
+Frame label="Termine" {
+Text item=CalDav_Termin label="nächster Termin"
+Text item=CalDav_Date
+Text item=CalDav_Termin1 label="Termin 2"
+Text item=CalDav_Date1
+Text item=CalDav_Termin2 label="Termin 3"
+Text item=CalDav_Date2
+}
+}

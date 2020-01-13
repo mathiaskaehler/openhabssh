@@ -1,0 +1,8 @@
+// Kalender //
+
+String CalDav_Termin "Termin [%s]" <calendar> { caldavPersonal="calendar:Familie type:EVENT eventNr:1 value:NAME" }
+DateTime CalDav_Date "Datum [%1$td.%1$tm.%1$tY]" <calendar> { caldavPersonal="calendar:Familie type:EVENT eventNr:1 value:START" }
+String CalDav_Termin1 "Termin [%s]" <calendar> { caldavPersonal="calendar:Familie type:EVENT eventNr:2 value:NAME" }
+DateTime CalDav_Date1 "Datum [%1$td.%1$tm.%1$tY]" <calendar> { caldavPersonal="calendar:Familie type:EVENT eventNr:2 value:START" }
+String CalDav_Termin2 "Termin [%s]" <calendar> { caldavPersonal="calendar:Familie type:EVENT eventNr:3 value:NAME" }
+DateTime CalDav_Date2 "Datum [%1$td.%1$tm.%1$tY]" <calendar> { caldavPersonal="calendar:Famile type:EVENT eventNr:3 value:START" }
